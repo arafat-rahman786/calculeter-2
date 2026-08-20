@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assest/css/output.css">
+    <title>Calculetor</title>
+</head>
+<body>
+
+
+    <section class="flex flex-col items-center justify-center mt-50 text-white">
+        <div class="w-120 bg-[#1d283a] px-6 py-5.5 rounded-xl">
+            <div class="flex flex-col gap-5">
+                <div class="h-[180px] bg-[#344357] rounded-md">
+                    <p id="display" class="flex flex-col items-end text-3xl p-5"></p>
+                </div>
+                <div class="grid-cols-4 grid gap-3.5">
+                    <button id="one" class=" py-1.5 bg-[#344357] text-[25px] font-semibold rounded transition-all duration-300 active:bg-[#6b62fa]" onclick="common(1)">1</button>
+                    <button id="two" class=" py-1.5 bg-[#344357] text-[25px] font-semibold rounded transition-all duration-300 active:bg-[#6b62fa]" onclick="common(2)">2</button>
+                    <button id="three" class=" py-1.5 bg-[#344357] text-[25px] font-semibold rounded transition-all duration-300 active:bg-[#6b62fa]" onclick="common(3)">3</button>
+                    <button id="four" class=" py-1.5 bg-[#344357] text-[25px] font-semibold rounded transition-all duration-300 active:bg-[#6b62fa]" onclick="common(4)">4</button>
+                    <button id="five" class=" py-1.5 bg-[#344357] text-[25px] font-semibold rounded transition-all duration-300 active:bg-[#6b62fa]" onclick="common(5)">5</button>
+                    <button id="six" class=" py-1.5 bg-[#344357] text-[25px] font-semibold rounded transition-all duration-300 active:bg-[#6b62fa]" onclick="common(6)">6</button>
+                    <button id="seven" class=" py-1.5 bg-[#344357] text-[25px] font-semibold rounded transition-all duration-300 active:bg-[#6b62fa]" onclick="common(7)">7</button>
+                    <button id="eight" class=" py-1.5 bg-[#344357] text-[25px] font-semibold rounded transition-all duration-300 active:bg-[#6b62fa]" onclick="common(8)">8</button>
+                    <button id="nine" class=" py-1.5 bg-[#344357] text-[25px] font-semibold rounded transition-all duration-300 active:bg-[#6b62fa]" onclick="common(9)">9</button>
+                    <button id="zoro" class=" py-1.5 bg-[#344357] text-[25px] font-semibold rounded transition-all duration-300 active:bg-[#6b62fa]" onclick="common(0)">0</button>
+                    <button id="plus" class=" py-1.5 bg-[#344357] text-[25px] font-semibold rounded transition-all duration-300 active:bg-[#6b62fa]" onclick="plus()">+</button>
+                    <button id="minas" class=" py-1.5 bg-[#344357] text-[25px] font-semibold rounded transition-all duration-300 active:bg-[#6b62fa]" onclick="mainas()">-</button>
+                    <button id="multiply" class=" py-1.5 bg-[#344357] text-[25px] font-semibold rounded transition-all duration-300 active:bg-[#6b62fa]" onclick="multiply()">*</button>
+                    <button id="division" class=" py-1.5 bg-[#344357] text-[25px] font-semibold rounded transition-all duration-300 active:bg-[#6b62fa]" onclick="divition()">/</button>
+                    <button id="division" class=" py-1.5 bg-[#344357] text-[25px] font-semibold rounded transition-all duration-300 active:bg-[#6b62fa]" onclick="ac()">AC</button>
+                    <button id="division" class=" py-1.5 bg-[#344357] text-[25px] font-semibold rounded transition-all duration-300 active:bg-[#6b62fa]" onclick="calculate()">=</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./assest/js/script.js"></script>
+</body>
+</html>
